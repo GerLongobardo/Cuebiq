@@ -26,8 +26,9 @@ public class ParallelRowContainer
 
 	/* L'approccio deve essere necessariamente top-down dato che le Function non necessariamente
 	 * possono essere ottenute da risultati di altre Function su subset 
-	 * 
-	 *
+	 *   
+	 *   In questo caso si è tentato di separare il calcolo dei subset dall'elaborazione legata
+	 *	all'esecuzione delle function che è asincrona rispetto alla creazione dell'albero pivot
 	 */
 	
 	public ParallelRowContainer() 
