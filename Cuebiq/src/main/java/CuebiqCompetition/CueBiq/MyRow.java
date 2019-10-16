@@ -3,7 +3,7 @@ package CuebiqCompetition.CueBiq;
 import java.util.ArrayList;
 import java.util.Collection;
 
-public class MyRow implements Comparable
+public class MyRow 
 {
 	public ArrayList<String> fields;
 	public int value;
@@ -14,11 +14,10 @@ public class MyRow implements Comparable
 		this.value = value;
 
 	}
-
-	@Override
-	public int compareTo(Object o)
+	
+	public int getValue()
 	{
-		MyRow r = (MyRow) o;
-		return value - r.value;
+		return value;
 	}
+
 }

@@ -1,4 +1,4 @@
-package CuebiqCompetition.CueBiq;
+package CuebiqCompetition.normalCueBiq;
 
 import java.util.Arrays;
 import java.util.List;
@@ -6,9 +6,9 @@ import java.util.TreeMap;
 
 public class MyNode
 {
-	String name;
-	double value;
-	TreeMap<String, MyNode> children = new TreeMap<>();
+	public String name;
+	public double value;
+	public TreeMap<String, MyNode> children = new TreeMap<>();
 
 	public MyNode(String name, Double res)
 	{

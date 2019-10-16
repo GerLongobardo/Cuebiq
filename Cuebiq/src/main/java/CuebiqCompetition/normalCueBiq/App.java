@@ -1,4 +1,4 @@
-package CuebiqCompetition.CueBiq;
+package CuebiqCompetition.normalCueBiq;
 
 import java.util.Arrays;
 
@@ -21,7 +21,7 @@ public class App
 			
 			n.print();
 			
-			String[] ss={"Germany", "Dark"};
+			String[] ss = {"Germany", "Dark"};
 			
 			MyNode q = n.getNode(Arrays.asList(ss));
 			q.print();
